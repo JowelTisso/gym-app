@@ -3,6 +3,8 @@ import React from "react";
 import { useEffect } from "react";
 import { GET } from "../../utils/axios";
 import { API } from "../../utils/Constant";
+import Header from "../../components/Header/Header";
+import banner from "../../assets/banner.png";
 
 const Home = () => {
   useEffect(() => {
@@ -12,7 +14,11 @@ const Home = () => {
     // })();
   }, []);
 
-  return <div>Home</div>;
+  return (
+    <div>
+      <Header />
+    </div>
+  );
 };
 
 export default Home;

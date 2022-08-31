@@ -1,7 +1,8 @@
 :root {
-  --primary-color: #818cf8;
-  --bg-color: #fff;
-  --bg-color-2: #f5f9f7;
+  --primary-color: #ef4444;
+  --bg-color: #111827;
+  --bg-color-2: #131b2b;
+  --bg-color-light: #334155;
   --border-color: hsl(214, 32%, 91%);
   --txt-color: #334155;
   --txt-color-light: #94a3b8;
@@ -20,6 +21,7 @@ h1 {
 
 .App {
   text-align: center;
+  background-color: var(--bg-color);
 }
 
 /* utils */

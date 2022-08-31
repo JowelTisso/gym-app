@@ -1,0 +1,45 @@
+.header {
+  height: 5rem;
+  background-color: var(--bg-color-2);
+  display: flex;
+  align-items: center;
+  padding: 1rem 5rem;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 4rem;
+}
+
+header li {
+  list-style: none;
+}
+
+.menu-list {
+  display: flex;
+  gap: 2rem;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--txt-color-light);
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.link:hover {
+  color: var(--txt-color-secondary);
+}
+
+.btn-login {
+  background-color: var(--primary-color);
+  border: none;
+  color: var(--txt-color-secondary);
+  opacity: 0.8;
+  padding: 8px 15px;
+  font-size: 1rem;
+}
+
+.btn-login:hover {
+  opacity: 1;
+}
