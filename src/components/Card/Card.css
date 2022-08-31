@@ -1,0 +1,93 @@
+.card {
+  display: flex;
+  height: 20rem;
+  background-color: var(--bg-color-light);
+  width: 100%;
+  position: relative;
+}
+
+.card-img {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  object-fit: cover;
+  width: 45%;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+  text-align: left;
+  max-height: 4rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 30rem;
+}
+
+.card-detail {
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.rating-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.rating {
+  font-size: 1.2rem;
+  color: var(--txt-color-secondary);
+}
+
+.card-description {
+  text-align: left;
+  max-height: 2.1rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 30rem;
+}
+
+.card-btn-container {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.card-btn {
+  padding: 0.8rem 1.5rem;
+  background-color: var(--primary-color);
+  opacity: 0.9;
+  color: var(--txt-color-secondary);
+  font-size: 1.2rem;
+}
+
+.card-btn:hover {
+  opacity: 1;
+}
+
+.card-price {
+  color: var(--warning-color);
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.navigate-icon {
+  margin-right: 5px;
+}
+
+.badge {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background-color: var(--danger-color);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.badge p {
+  font-weight: 400;
+}

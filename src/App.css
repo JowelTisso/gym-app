@@ -1,27 +1,46 @@
 :root {
   --primary-color: #ef4444;
-  --bg-color: #111827;
-  --bg-color-2: #131b2b;
-  --bg-color-light: #334155;
-  --border-color: hsl(214, 32%, 91%);
+  --bg-color: #0e0e0e;
+  --bg-color-2: #131313;
+  --bg-color-light: #262626;
+  --border-color: rgba(225, 231, 239, 0.5);
   --txt-color: #334155;
   --txt-color-light: #94a3b8;
   --txt-color-secondary: #fff;
   --danger-color: #dc2626;
+  --warning-color: #fbbf24;
+  --primary-color-light: #e04848;
 }
 
-* {
-  color: var(--txt-color);
+h1,
+p,
+button,
+input,
+label,
+select {
+  color: var(--txt-color-secondary);
+  font-weight: 300;
+}
+
+button {
+  border: none;
 }
 
 h1 {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 2.2rem;
 }
 
 .App {
   text-align: center;
   background-color: var(--bg-color);
+  height: 100vh;
+  overflow: auto;
+}
+
+/* Scroll bar */
+.App::-webkit-scrollbar {
+  display: none;
 }
 
 /* utils */
@@ -33,6 +52,10 @@ h1 {
 
 .br-1x {
   border-radius: 5px;
+}
+
+.br-2x {
+  border-radius: 8px;
 }
 
 .flex-grow-1x {
@@ -47,6 +70,15 @@ h1 {
   box-shadow: 0px 0px 5px 0px var(--border-color);
 }
 
+.mg-top-1x {
+  margin-top: 1rem;
+}
+.mg-top-2x {
+  margin-top: 2rem;
+}
+.mg-top-3x {
+  margin-top: 3rem;
+}
 .mg-top-4x {
   margin-top: 4rem;
 }

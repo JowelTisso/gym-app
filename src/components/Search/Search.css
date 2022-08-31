@@ -1,0 +1,40 @@
+.search-container {
+  border: 2px solid var(--border-color);
+  width: 90%;
+  margin: auto;
+  height: 3.8rem;
+  padding: 8px 1.8rem;
+  gap: 1rem;
+}
+
+.search-input {
+  flex: 1;
+  background-color: transparent;
+  border: none;
+  font-size: 1.2rem;
+}
+
+.search-input:focus {
+  outline: none;
+}
+
+.search-icon {
+  font-size: 1.6rem;
+  color: var(--txt-color-secondary);
+}
+
+.search-btn {
+  height: 90%;
+  width: 3rem;
+  font-size: 1rem;
+  background-color: var(--primary-color);
+  opacity: 0.9;
+}
+
+.search-btn:hover {
+  opacity: 1;
+}
+
+.btn-clear {
+  width: 5rem;
+}

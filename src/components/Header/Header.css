@@ -1,10 +1,15 @@
 .header {
-  height: 5rem;
+  height: 6rem;
   background-color: var(--bg-color-2);
   display: flex;
   align-items: center;
-  padding: 1rem 5rem;
+  padding: 0rem 5rem;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
 }
 
 .logo {
@@ -13,6 +18,10 @@
 
 header li {
   list-style: none;
+}
+
+.menu {
+  margin-top: 15px;
 }
 
 .menu-list {
@@ -25,6 +34,8 @@ header li {
   color: var(--txt-color-light);
   font-size: 1.2rem;
   font-weight: 300;
+  padding-bottom: 15px;
+  margin-top: 5px;
 }
 
 .link:hover {
@@ -35,9 +46,10 @@ header li {
   background-color: var(--primary-color);
   border: none;
   color: var(--txt-color-secondary);
-  opacity: 0.8;
+  opacity: 0.9;
   padding: 8px 15px;
   font-size: 1rem;
+  height: 2rem;
 }
 
 .btn-login:hover {
