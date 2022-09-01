@@ -1,0 +1,55 @@
+.footer {
+  min-height: 70vh;
+  padding: 4rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.footer-logo {
+  height: 5rem;
+}
+
+.social-section {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.social-logo-container {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.social {
+  background-color: whitesmoke;
+  border-radius: 50%;
+  padding: 5px;
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.social-logo {
+  height: 1.2rem;
+  width: 1.2rem;
+}
+
+.link-title {
+  text-align: start;
+  margin-bottom: 2rem;
+  color: var(--txt-color-secondary);
+}
+
+.link {
+  text-align: start;
+  max-width: 13rem;
+}
+
+.contact-list-item {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.contact-icon {
+  margin-top: 8px;
+  margin-right: 1rem;
+}

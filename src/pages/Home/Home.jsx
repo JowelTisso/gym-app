@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import { GET } from "../../utils/axios";
 import { API } from "../../utils/Constant";
 import banner from "../../assets/banner.png";
-import { Card, Header, Filter, Search } from "../../components";
+import { Card, Filter, Search } from "../../components";
 import { useState } from "react";
 import { IoSettings, IoBug, IoMedal, IoShieldCheckmark } from "react-icons/io5";
 
@@ -37,7 +37,7 @@ const Home = () => {
     );
   };
 
-  const Highlist = () => {
+  const Highlight = () => {
     return (
       <section className="highlight">
         <h1 className="highlight-title">WTF Fitness Experience?</h1>
@@ -59,14 +59,13 @@ const Home = () => {
 
   return (
     <div className="wrapper">
-      <Header />
       <img src={banner} alt="banner" className="banner" />
       <Search />
       <main className="main-section">
         <Filter />
         <Content />
       </main>
-      <Highlist />
+      <Highlight />
     </div>
   );
 };
